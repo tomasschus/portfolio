@@ -160,6 +160,28 @@ a.nav-link{
 }
 
 /*──────────────────
+      about me
+──────────────────*/
+#about{
+	margin-top:100px;
+    height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+	text-align:center;
+	color: var(--main-fonts-color);
+}
+#about h3{
+    padding-top: 70px;
+}
+#about p{
+	font-family: var(--main-font-family);
+	font-size:1.2rem;
+	padding: 10px;
+	
+}
+/*──────────────────
       projects
 ──────────────────*/
 
@@ -364,7 +386,7 @@ hr {
 
 @media only screen and (max-width: 500px) {
 
-	#home, #projects, #contact{
+	#home, #projects, #contact, #about{
         overflow-x: hidden;
 	}
 	header{
